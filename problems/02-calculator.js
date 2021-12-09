@@ -7,6 +7,9 @@ class Calculator {
 	multiply = num => this.total *= num
 	divide = num => this.total /= num
 }
+
+module.exports = Calculator;
+
 let calculator = new Calculator();
 console.log(calculator.add(50));      // => 50
 console.log(calculator.subtract(35)); // => 15
